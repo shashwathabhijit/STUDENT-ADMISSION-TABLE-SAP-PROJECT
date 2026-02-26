@@ -1,0 +1,11 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "SAP Object Node Type ZZCICIT_STU_ADT_157157",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "name": "ZZCICIT_STU_ADT_157157",
+  "sapObjectType": "ZZCICIT_STU_ADT_157157",
+  "rootNode": true
+}

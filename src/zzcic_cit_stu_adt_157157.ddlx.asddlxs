@@ -1,0 +1,153 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'AdmissionID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'AdmissionID'
+annotate view ZZCIC_CIT_STU_ADT_157157 with
+{
+  @EndUserText.label: 'AdmissionID'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'AdmissionID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'AdmissionID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  AdmissionID;
+  
+  @EndUserText.label: 'StudentID'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'StudentID'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'StudentID'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  StudentID;
+  
+  @EndUserText.label: 'CourseID'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'CourseID'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'CourseID'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  CourseID;
+  
+  @EndUserText.label: 'ApplicationDate'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'ApplicationDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'ApplicationDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  ApplicationDate;
+  
+  @EndUserText.label: 'Status'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Status'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Status'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Status;
+  
+  @UI.identification: [ {
+    position: 60 
+  } ]
+  @UI.lineItem: [ {
+    position: 60 
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  LocalCreatedBy;
+  
+  @UI.identification: [ {
+    position: 70 
+  } ]
+  @UI.lineItem: [ {
+    position: 70 
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  LocalCreatedAt;
+  
+  @UI.identification: [ {
+    position: 80 
+  } ]
+  @UI.lineItem: [ {
+    position: 80 
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  LocalLastChangedBy;
+  
+  @UI.identification: [ {
+    position: 90 
+  } ]
+  @UI.lineItem: [ {
+    position: 90 
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  LocalLastChangedAt;
+  
+  @UI.identification: [ {
+    position: 100 
+  } ]
+  @UI.lineItem: [ {
+    position: 100 
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  LastChangedAt;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 110 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  _BaseEntity;
+}
